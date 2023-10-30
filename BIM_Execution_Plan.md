@@ -44,6 +44,39 @@ The primary input data for this use case includes:
 
 - Material properties (e.g., material strength) for structural calculations.
 
+### Quality Assurance
+
+The following quality assurance measures will be implemented to ensure the accuracy and reliability of the structural capacity calculation script and its outputs:
+
+## Unit Testing
+
+Unit tests will be written to verify the individual functions of the script, including:
+
+- Reading and parsing IFC files
+- Extracting data from IFC files, such as the dimensions, material properties, and applied loads for 'IfcBeam' elements
+- Conducting structural analysis for 'IfcBeam' elements, including calculating maximum bending stress and load-bearing 
+  capacity
+- Aggregating the results to provide a comprehensive overview of the load-bearing capacity of all 'IfcBeam' elements in the 
+  building
+
+## Integration Testing
+
+Integration tests will be performed to ensure that the script works correctly with other BIM software, such as structural analysis software. This will involve testing the script with a variety of IFC files and comparing the calculated load-bearing capacity values to those obtained from the structural analysis software.
+
+## Acceptance Testing
+
+Users will be involved in the acceptance testing process to ensure that the script meets their needs and requirements. This will involve asking users to test the script with their own IFC files and provide feedback on the results.
+
+In addition to the above measures, the following steps will be taken to ensure the quality of the script:
+
+- The script will be well-documented, including detailed instructions on how to use it, example input data and output 
+  results, and a description of the assumptions and limitations of the script.
+- The script will be reviewed by other experienced professionals to identify any potential errors or omissions.
+- The script will be maintained and updated on a regular basis to reflect changes in the IFC schema and to address any user 
+  feedback or bug reports.
+
+By implementing these quality assurance measures, we can ensure that the structural capacity calculation script is a reliable and accurate tool for structural engineers and other professionals involved in building analysis and design.
+
 ### Interdependent Use Cases
 
 Completion of this use case can enable other related use cases, including:
