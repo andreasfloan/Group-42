@@ -1,4 +1,4 @@
-#### Report
+# Report
 ### 3A: Analyze Use Case
 
 **Goal:** To develop a tool or workflow that enables users to calculate the different structural elements of a project from a BIM model.
