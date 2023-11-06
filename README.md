@@ -7,9 +7,9 @@
 
 ### 3B: Propose a (Design for a) Tool / Workflow
 
-**Process Diagram:** The following BPMN diagram illustrates the proposed workflow for calculating the structural elements of a project from a BIM model:
+**Process Diagram:** The BPMN diagram illustrates the proposed workflow for calculating the structural elements of a project from a BIM model:
 
-[Insert BPMN diagram here]
+
 
 **Description of the process:**
 
