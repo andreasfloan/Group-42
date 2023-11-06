@@ -26,7 +26,8 @@
 - Extract the relevant data from a BIM model, including the geometry, materials, and loading conditions of structural elements.
 - Perform structural analysis calculations using the extracted data.
 - Generate a report that summarizes the results of the structural analysis.
-- Non-functional requirements: The tool or workflow shall be:
+
+**Non-functional requirements:** The tool or workflow shall be:
 
 - Easy to use.
 - Efficient.
