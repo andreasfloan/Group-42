@@ -14,7 +14,7 @@
 **Description of the process:**
 
 -The user opens the BIM model in the tool.
--The tool extracts the relevant data from the BIM model, such as the geometry, materials, and loading conditions of --structural elements.
+-The tool extracts the relevant data from the BIM model, such as the geometry, materials, and loading conditions of structural elements.
 -The tool performs structural analysis calculations using the extracted data.
 -The tool generates a report that summarizes the results of the structural analysis, including the calculated internal forces and moments, as well as the stresses and strains in the structural elements.
 
