@@ -23,30 +23,30 @@
 
 **Functional requirements:** The tool or workflow shall be able to:
 
--Extract the relevant data from a BIM model, including the geometry, materials, and loading conditions of structural elements.
--Perform structural analysis calculations using the extracted data.
--Generate a report that summarizes the results of the structural analysis.
--Non-functional requirements: The tool or workflow shall be:
+- Extract the relevant data from a BIM model, including the geometry, materials, and loading conditions of structural elements.
+- Perform structural analysis calculations using the extracted data.
+- Generate a report that summarizes the results of the structural analysis.
+- Non-functional requirements: The tool or workflow shall be:
 
--Easy to use.
--Efficient.
--Accurate.
--Scalable to handle large BIM models.
+- Easy to use.
+- Efficient.
+- Accurate.
+- Scalable to handle large BIM models.
 
 ### 3D: Value
 
 **Business value:** The proposed tool or workflow can create significant value for businesses by helping them to:
 
--Reduce the risk of structural failure by providing accurate and up-to-date structural analysis results.
--Make better informed decisions about structural design and construction methods.
--Improve the efficiency of the structural analysis process.
+- Reduce the risk of structural failure by providing accurate and up-to-date structural analysis results.
+- Make better informed decisions about structural design and construction methods.
+- Improve the efficiency of the structural analysis process.
 
 **Societal value:** The proposed tool or workflow can also contribute to societal value by helping to:
 
--Improve the safety of construction projects.
--Reduce the environmental impact of construction projects by optimizing the design of structural elements.
--Increase the affordability of construction projects by making them more cost-effective.
--Conclusion
+- Improve the safety of construction projects.
+- Reduce the environmental impact of construction projects by optimizing the design of structural elements.
+- Increase the affordability of construction projects by making them more cost-effective.
+- Conclusion
 
 The proposed tool or workflow has the potential to offer significant value to both businesses and society by helping to improve the safety, efficiency, and sustainability of construction projects.
 
