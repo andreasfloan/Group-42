@@ -54,7 +54,9 @@ The proposed tool or workflow has the potential to offer significant value to bo
 In addition to the functional and non-functional requirements listed above, it is also important to consider the following requirements when developing a tool or workflow for calculating the different structural elements in a BIM model:
 
 **Interoperability:** The tool or workflow should be interoperable with different BIM software applications. This will allow users to use the tool or workflow with their preferred BIM software.
+
 **Security:** The tool or workflow should be secure to protect users' data from unauthorized access and modification.
+
 **Customization:** The tool or workflow should be customizable to meet the specific needs of different users and organizations.
 
 By meeting these requirements, a tool or workflow for calculating the different structural elements in a BIM model can be a valuable asset for businesses and organizations involved in the design, construction, and operation of buildings and other infrastructure.
