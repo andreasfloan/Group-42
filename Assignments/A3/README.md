@@ -207,6 +207,9 @@ In addition to the functional and non-functional requirements listed above, it i
 By meeting these requirements, a tool or workflow for calculating the different structural elements in a BIM model can be a valuable asset for businesses and organizations involved in the design, construction, and operation of buildings and other infrastructure.
 
 ## 3E: Delivery
+**IFC file**
+We have used the skylab model and will therefor not link to it in this report.
+
 **IDM diagrams**
 Updated: ![BPMN diagram new](https://github.com/andreasfloan/Group-42/assets/149388813/e7921bb1-071e-400f-8eaf-e3d98dc6ba74)
 
