@@ -224,3 +224,5 @@ This Python script is designed to analyze 'IfcBeam' elements in a BIM model. It 
 - Handling cases where specific structural properties may not be directly available in the 'IfcBeam' element's attributes.
 
 This script is a valuable tool for structural engineers and other professionals involved in building analysis, allowing them to assess the structural integrity and properties of 'IfcBeam' elements within a BIM model.
+
+*We have some problems getting the script to run properly because we are unable to get the structural properties of the different beams.*
