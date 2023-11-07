@@ -205,3 +205,5 @@ In addition to the functional and non-functional requirements listed above, it i
 **Customization:** The tool or workflow should be customizable to meet the specific needs of different users and organizations.
 
 By meeting these requirements, a tool or workflow for calculating the different structural elements in a BIM model can be a valuable asset for businesses and organizations involved in the design, construction, and operation of buildings and other infrastructure.
+
+### 3E: Delivery
