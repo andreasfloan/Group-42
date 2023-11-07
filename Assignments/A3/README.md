@@ -206,9 +206,21 @@ In addition to the functional and non-functional requirements listed above, it i
 
 By meeting these requirements, a tool or workflow for calculating the different structural elements in a BIM model can be a valuable asset for businesses and organizations involved in the design, construction, and operation of buildings and other infrastructure.
 
-### 3E: Delivery
+## 3E: Delivery
 **IDM diagrams**
 Updated: ![BPMN diagram new](https://github.com/andreasfloan/Group-42/assets/149388813/e7921bb1-071e-400f-8eaf-e3d98dc6ba74)
 
 Previous: ![BPMN without path](https://github.com/andreasfloan/Group-42/assets/149388813/75f06e1e-6e2f-43bf-a462-e7a785e3769f)
 
+### Descriprion of script:
+This Python script is designed to analyze 'IfcBeam' elements in a BIM model. It extracts key structural properties such as length, width, height, maximum moment, maximum bending stress, E-Module, shear force, and shear stress for each 'IfcBeam'. The script then prints or processes this data, providing valuable insights into the structural elements' characteristics and behavior.
+
+**Key components of the script include:**
+
+- Extraction of relevant data from 'IfcBeam' elements in the BIM model.
+- Calculation of structural properties based on the extracted data.
+- Storage of beam details in a dictionary for further analysis or reporting.
+- Counting similar beams based on their width and height to identify load combinations.
+- Handling cases where specific structural properties may not be directly available in the 'IfcBeam' element's attributes.
+
+This script is a valuable tool for structural engineers and other professionals involved in building analysis, allowing them to assess the structural integrity and properties of 'IfcBeam' elements within a BIM model.
