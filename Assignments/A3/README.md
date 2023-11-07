@@ -105,11 +105,11 @@ By implementing these quality assurance measures, we can ensure that the structu
 
 Completion of this use case can enable other related use cases, including:
 
-1. **Structural Design Optimization:** This use case can serve as a foundation for optimizing the design of structural elements based on their load-bearing capacity. It enables the exploration of design alternatives to enhance structural performance.
+-  **Structural Design Optimization:** This use case can serve as a foundation for optimizing the design of structural elements based on their load-bearing capacity. It enables the exploration of design alternatives to enhance structural performance.
 
-2. **Safety and Integrity Reporting:** The output of this use case can be used to assess the safety and integrity of the building structure. It provides the basis for creating safety reports and identifying potential risks.
+-  **Safety and Integrity Reporting:** The output of this use case can be used to assess the safety and integrity of the building structure. It provides the basis for creating safety reports and identifying potential risks.
 
-3. **Detailed Structural Element Requirements:** A use case can be developed to define specific requirements for different structural elements based on their load-bearing capacity.
+-  **Detailed Structural Element Requirements:** A use case can be developed to define specific requirements for different structural elements based on their load-bearing capacity.
 
 ## Execution Steps
 
