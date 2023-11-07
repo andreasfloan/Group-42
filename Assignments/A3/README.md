@@ -148,7 +148,7 @@ This BIM Execution Plan provides a roadmap for developing a script that can anal
 
 **Process Diagram:** The BPMN diagram illustrates the proposed workflow for calculating the structural elements of a project from a BIM model.
 
-file:///C:/Users/ludvi/Downloads/diagram%20(4).svg
+![diagram (5)](https://github.com/andreasfloan/Group-42/assets/149388813/7a04414f-1f72-4152-a0e1-85addc15f6de)
 
 **Description of the process:**
 
