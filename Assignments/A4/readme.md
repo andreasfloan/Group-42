@@ -15,9 +15,6 @@
 
 - **Install the IfcOpenShell library.**
 
-   To install the IfcOpenShell library, you can use the following command:
-
-  ```pip install ifcopenshell```
 
 - **Download the Python script to calculate beam properties.**
 
@@ -39,16 +36,6 @@
 
 - **Run the Python script.**
 
-   To run the Python script, type the following command:
-
-  ```python calculate_beam_properties.py <model_file_path>```
-
-  Replace ```<model_file_path>``` with the path to the IFC model file.
-
-### Example:
-  ``` python calculate_beam_properties.py C:\Path\To\Model\Model.ifc ```
-
-- This will calculate the beam properties for the IFC model file ```C:\Path\To\Model\Model.ifc``` and print the results to the terminal or command prompt window.
 
 
 ## What the code does:
