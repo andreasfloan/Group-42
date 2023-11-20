@@ -64,7 +64,7 @@ For each beam in the model, the script does the following:
 
 This Python script loads an IFC model and extracts all the beam elements from the model.
 The script then calculates the length, width, height, maximum moment, maximum bending stress, E-module, shear force, and shear stress of each beam.
-The results are stored in a dictionary called beam_details.
+The results are stored in a dictionary called ```beam_details```.
 Finally, the script prints the number of similar beams in the model.
 
 # Here is a detailed description of each part of the code: 
@@ -94,7 +94,7 @@ These lines check if the model contains any beam elements. If the model does not
 
 https://github.com/andreasfloan/Group-42/blob/e5a040c8fc1722171ab48f1a30ef68f918002134/Assignments/A3/input/A2_1.py#L27-L28
 
-These lines define the constants used in the script, such as the load and the material strength of the beams.
+These lines define the constants used in the script, such as the load and the material strength of the beams. Until the code is developed further you need to insert the values manually.
 
 
 
@@ -104,7 +104,7 @@ These lines initialize the dictionary that will be used to store the beam detail
 
 
 https://github.com/andreasfloan/Group-42/blob/e5a040c8fc1722171ab48f1a30ef68f918002134/Assignments/A3/input/A2_1.py#L36-L45
-These lines extracts the beam's coordinates from the ObjectPlacement property. This makes it easier to get the dimentions and placement of the individual beams.
+These lines extracts the beam's coordinates from the ```ObjectPlacement property```. This makes it easier to get the dimentions and placement of the individual beams.
 
 
 
@@ -121,7 +121,9 @@ The maximum moment can be calculated using the following formula:
 https://github.com/andreasfloan/Group-42/blob/e5a040c8fc1722171ab48f1a30ef68f918002134/Assignments/A3/input/A2_1.py#L55-L56
 This line of code uses the ```getattr()``` function in Python. This function is used to get the value of an attribute in an object.
 
-The first argument to ```getattr()``` is the object whose attribute you want to get. The second argument is the attribute you want to get. The third argument is optional and it is the value that ```getattr()``` should return if the specified attribute does not exist in the object.
+The first argument to ```getattr()``` is the object whose attribute you want to get. 
+The second argument is the attribute you want to get. 
+The third argument is optional and it is the value that ```getattr()``` should return if the specified attribute does not exist in the object.
 
 In this case, the ```getattr()``` function is used to get the value of the Width and Height attribute of the beam object. If the Width or Height attribute does not exist, the ```getattr()``` function will return the default value 0.0. This is so that it doesn't affect the further calculations with false values, and just gives the value of zero.
 
@@ -133,7 +135,7 @@ This part of the code is checking if width and height are defined and have value
 
 
 https://github.com/andreasfloan/Group-42/blob/0cb7281bc8b20b4d9de29e8bef6cabb282174155/Assignments/A3/input/A2_1.py#L70-L84
-These lines of code calculate various parameters related to the stress and structural properties of a beam. It starts by calculating the distance from the neutral axis to the top edge of the beam cross-section (line 70) and the second moment of area (flexural rigidity) of the beam cross-section (line 71). 
+These lines of code calculate various parameters related to the stress and structural properties of a beam. It starts by calculating the distance from the neutral axis to the top edge of the beam cross-section (line 70) and the second moment of area (flexural rigidity) of the beam cross-section (line 71), assuming a rectangular cross-section. 
 
 These values are then used to calculate the maximum bending stress in the beam (line 72). Next, the code calculates the Young's modulus (modulus of elasticity) of the beam material (line 75), which is a measure of the material's stiffness.
 
@@ -146,7 +148,7 @@ https://github.com/andreasfloan/Group-42/blob/0cb7281bc8b20b4d9de29e8bef6cabb282
 The first part of the code stores the calculated beam details in a dictionary called ```beam_details```. The dictionary's key is the beam's ID.
 
 The second part of the code counts the number of similar beams based on their width and height. This information can be used to identify different load combinations in the model. The code uses a counter object called ```similar_beams_counter``` to keep track of the number of similar beams. The counter object's key is a tuple containing the width and height of the beam, and the value is the number of beams with those dimensions.
-The ```else``` statement at the end of the code snippet handles the case where a beam does not have the required properties (ObjectPlacement and Representation). In this case, the code prints an error message to the console.
+The ```else``` statement at the end of the code snippet handles the case where a beam does not have the required properties (```ObjectPlacement``` and ```Representation```). In this case, the code prints an error message to the console.
 
 
 
