@@ -19,6 +19,10 @@ The course provided a balanced mix of tools, covering essential OpenBIM applicat
 
 The feedback received on the tutorial was constructive and helped identify areas for improvement. Primarly, we got comments on our targetted learning level, being level 1. Our code were considered a little harder than level 1, and they suggested that we targetted a higher learning level, from 1 to 2. 
 
+We were told that the script reflected a more complex and ambitious than we were able to execute in our script. The feedback on the script were helpful, and they had solutions on the faulty parts of our script. We believe that if we had recieved their feedback and help earlier, we could have solved the script.
+
+In assignment 4, which wanted us to make a video to target learners in this subject we had different approaches to the task and how to solve it. We got feedback on how it was very easy for the watcher to follow the presentation. On the other hand, we didn't explain the script and task in the same complexity as our peers, who had a more detailed walkthrough of the script. 
+
 ### Your future for Advanced use of OpenBIM
 
 We are not quite sure, but we would be likely to utilize OpenBIM tools in our thesis research in some way. The ability to work with IFC data and integrate with various BIM software applications is highly relevant to our studies and line of work. In conclusion, we are confident that OpenBIM will become increasingly relevant in our professional life as the AEC industry embraces interoperability and collaboration.
